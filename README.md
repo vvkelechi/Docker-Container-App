@@ -17,10 +17,12 @@ The application is designed to be lightweight, portable, and deployment-ready.
 ### Build Image
 ```bash
 docker build -t docker-container-app .
+
 Run Container
 bash
 Copy code
 docker run -p 8080:8080 docker-container-app
+
 🔍 Test Endpoints
 / → Application status
 
